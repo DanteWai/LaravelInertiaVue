@@ -9,7 +9,14 @@ class HomeController extends Controller
     public function index(): \Inertia\Response
     {
         return Inertia::render('Home', [
-            'title' => 'home'
+            'title' => 'Home Page'
+        ]);
+    }
+
+    public function about(): \Inertia\Response
+    {
+        return Inertia::render('Home', [
+            'title' => 'About Page'
         ]);
     }
 }

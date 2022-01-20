@@ -1,7 +1,6 @@
 <template>
-    <Head>
-        <title>{{ title }}</title>
-    </Head>
+    <Head :title="title" />
+
     <h1>{{ title }}</h1>
 </template>
 
